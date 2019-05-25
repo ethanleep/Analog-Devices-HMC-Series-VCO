@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 9)
+    (drawings 14)
     (tracks 143)
     (zones 0)
     (modules 3)
@@ -36,7 +36,7 @@
   )
 
   (setup
-    (last_trace_width 0.3756)
+    (last_trace_width 0.25)
     (user_trace_width 0.3756)
     (trace_clearance 0.1)
     (zone_clearance 0.508)
@@ -307,6 +307,21 @@
     )
   )
 
+  (gr_text "RF Out" (at 142.875 106.68) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (gr_text "Vtune\n" (at 132.715 98.425 270) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (gr_text "GND\n" (at 135.255 97.79 270) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (gr_text VCC (at 137.795 97.79 270) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (gr_text "Analog Devices \nHMC Series VCO" (at 139.065 103.505) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_line (start 130.429 110.236) (end 130.175 109.982) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 152.273 110.236) (end 130.429 110.236) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 152.654 109.855) (end 152.273 110.236) (layer Edge.Cuts) (width 0.15))
@@ -317,10 +332,10 @@
   (gr_line (start 152.654 96.012) (end 148.844 92.202) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 152.654 109.855) (end 152.654 96.012) (layer Edge.Cuts) (width 0.15))
 
-  (segment (start 137.541 101.473) (end 137.414 101.473) (width 0.3756) (layer F.Cu) (net 2))
   (segment (start 132.715 94.615) (end 132.715 97.409) (width 0.3756) (layer F.Cu) (net 1))
   (segment (start 135.005 99.699) (end 135.005 102.19) (width 0.3756) (layer F.Cu) (net 1))
   (segment (start 132.715 97.409) (end 135.005 99.699) (width 0.3756) (layer F.Cu) (net 1))
+  (segment (start 137.541 101.473) (end 137.414 101.473) (width 0.3756) (layer F.Cu) (net 2))
   (segment (start 137.205 102.89) (end 137.205 103.39) (width 0.3756) (layer F.Cu) (net 2))
   (segment (start 135.905 103.49) (end 136.005 103.39) (width 0.3756) (layer F.Cu) (net 2))
   (segment (start 137.205 104.89) (end 137.205 104.39) (width 0.3756) (layer F.Cu) (net 2))
