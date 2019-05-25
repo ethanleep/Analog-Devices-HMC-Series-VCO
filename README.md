@@ -1,1 +1,3 @@
 # Analog-Devices-HMC-Series-VCO
+
+These are the board files for a VCO on the Analog Devices HMC series VCO ICs. These are a wide range of high frequency inexpensive VCOs that can generate frequencies up to 8GHz. It has tested and verified to work but I cannot guarantee performance characteristics because I simply dont have the tools to test it. The boards are 4 layer FR408 PCBs ordered from OSH Park due to the decent RF performance and cost. The SMA footprints on the board are based off of Molex connectors but they work fine with other brands even if the sizes dont match. The boards are uploaded to the OSH Park website and can be viewed and ordered below.
