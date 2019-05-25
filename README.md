@@ -4,4 +4,4 @@ These are the board files for a VCO on the Analog Devices HMC series VCO ICs. Th
 
 HMC Series VCOs: https://www.analog.com/en/products/rf-microwave/vcos-plos/vcos-with-single-output.html
 
-OSH Park order link: <a href="https://oshpark.com/shared_projects/ALN9admB"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
+OSH Park PCB link: <a href="https://oshpark.com/shared_projects/ALN9admB"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
